@@ -3,3 +3,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*Inizio Header*/
+
+header{
+    position: fixed;
+    background-color: orange;
+    padding: 15px 15px;
+    width: 100%;
+}
+/*Fine Header*/
+
+/*Inizio Main*/
+main{
+    padding-top: 100px;
+}
+
+/*CLASSI DI LAYOUT*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-33{
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+}
+
+.content{
+    height: 300px;
+    background-color: red;
+}
+
+/*Fine Main*/
